@@ -1,0 +1,33 @@
+.searchForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 289px;
+  margin-bottom: 20px;
+}
+
+.searchInput,
+.searchBtn {
+  background-color: transparent;
+  border: 1px solid rgba(45, 45, 45, 0.3);
+  padding: 12px 14px;
+}
+
+.searchInput {
+  border-right: none;
+  border-radius: 7px 0px 0px 7px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1.1px;
+  flex: 1;
+}
+
+.searchInput::placeholder {
+  color: rgba(45, 45, 45, 0.3);
+}
+
+.searchBtn {
+  border-left: none;
+  border-radius: 0px 7px 7px 0px;
+}

@@ -1,0 +1,12 @@
+.main {
+  max-width: 1162px;
+  margin: 0 auto;
+  padding-top: 11px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 5px;
+  letter-spacing: 0.014em;
+}
