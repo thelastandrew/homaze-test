@@ -14,11 +14,15 @@ const ProjectList = (props) => {
     props.fetchProjects();
   }, []);
 
+  const renderedCards = props.projects.length
+    ? props.projects.map(project => <Project key={project.projectId} project={project} />)
+    : <p>No projects found</p>;
+
   return (
     <div className={listStyles}>
       { props.isFetching
         ? <Loader />
-        : props.projects.map(project => <Project key={project.projectId} project={project} />)
+        : renderedCards
       }
     </div>
   );
