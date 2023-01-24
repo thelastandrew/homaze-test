@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
-button {
-  cursor: pointer;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.272728px;
   color: #2D2D2D;
   background-color: #F6F9FA;
+}
+
+#root {
+  padding: 0 10px;
 }

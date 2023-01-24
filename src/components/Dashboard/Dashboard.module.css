@@ -4,3 +4,10 @@
   border-radius: 9px;
   padding: 27px 30px 30px;
 }
+
+@media (max-width: 430px) {
+  .dashboard {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

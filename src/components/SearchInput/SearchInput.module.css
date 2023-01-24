@@ -33,3 +33,9 @@
   border-radius: 0px 7px 7px 0px;
   padding: 13.5px 14px;
 }
+
+@media (max-width: 329px) {
+  .searchBlock {
+    width: auto;
+  }
+}

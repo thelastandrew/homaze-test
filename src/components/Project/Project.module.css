@@ -89,7 +89,7 @@
 
 .details > div > p:last-child {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.43em;
 }
 
 .update {
@@ -115,21 +115,48 @@
 }
 
 .progress {
-  background-color:  #F6F9FA;
+  background-color: #f6f9fa;
 }
 
 .done {
-  color: #30D869;
-  background-color: #EBFCEC;
+  color: #30d869;
+  background-color: #ebfcec;
 }
 
 .cancelled {
   font-weight: 700;
-  color: #3CB2E4;
-  background-color: #EBF7FC;
+  color: #3cb2e4;
+  background-color: #ebf7fc;
 }
 
 .negotiation {
-  color: #E4783C;
-  background-color: #FAEEE8;
+  color: #e4783c;
+  background-color: #faeee8;
+}
+
+@media (max-width: 1182px) {
+  .projectCard {
+    min-width: 350px;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 390px) {
+  .projectCard {
+    width: 100%;
+    min-width: auto;
+  }
+
+  .cardHeader,
+  .cardContent {
+    padding: 10px 5px;
+  }
+
+  .details > div:not(:last-child) {
+    margin-right: 7px;
+  }
+
+  .details > div > p:last-child {
+    font-size: 13px;
+  }
 }
